@@ -1,0 +1,15 @@
+/* Design tokens only. The creative team's look and feel should only need to change this file. */
+:root {
+  --color-bg: #fafaf8;
+  --color-surface: #ffffff;
+  --color-text: #1d2433;
+  --color-muted: #5b6475;
+  --color-border: #dcdfe6;
+  --color-accent: #1f4fd8;
+  --color-accent-text: #ffffff;
+  --color-error: #b3261e;
+  --font-body: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --radius: 6px;
+  --space: 1rem;
+  --max-width: 1100px;
+}
