@@ -17,7 +17,6 @@ export function ProductPage() {
         <article className="product">
           <img className="product-image" src={p.image} alt={p.title} />
           <div>
-            <p><Link to={`/categories/${encodeURIComponent(p.category.slug)}`} className="capitalize">{p.category.name}</Link></p>
             <h1>{p.title}</h1>
             <p className="price">{formatPrice(p.price, p.currency)}</p>
             <p>★ {p.rating.rate} ({p.rating.count} reviews)</p>
